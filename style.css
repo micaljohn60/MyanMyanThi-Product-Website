@@ -20,7 +20,7 @@
     height: auto;
 }
 
-/* Large Tablet */
+/* Large Tablet 
 @media only screen and (max-width:991){
     .image{
         margin-top: 20px;
@@ -29,6 +29,7 @@
         height: auto;
     }
 }
+*/
 
 /* mdeium Tablet */
 @media only screen and (max-width:767){
