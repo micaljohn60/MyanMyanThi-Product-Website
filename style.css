@@ -54,6 +54,11 @@
 
 /* mobile phone */
 @media only screen and (max-width:479){
+    .container{
+        width: 767;
+        height: auto;
+    }
+    
     .image{
         margin-top: 20px;
         text-align: center;
