@@ -4,15 +4,66 @@
 }
 
 .text{
+    width: auto;
+    height: auto;
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
 }
 
+
+/* Desktop */
 .image{
     margin-top: 20px;
     text-align: center;
     width: 400;
     height: auto;
+}
+
+/* Large Tablet */
+@media only screen and (max-width:991){
+    .image{
+        margin-top: 20px;
+        text-align: center;
+        width: 500;
+        height: auto;
+    }
+}
+
+/* mdeium Tablet */
+@media only screen and (max-width:767){
+    .image{
+        margin-top: 20px;
+        text-align: center;
+        width: 500;
+        height: auto;
+    }
+    .text{
+        width: 767;
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+
+/* mobile phone */
+@media only screen and (max-width:479){
+    .image{
+        margin-top: 20px;
+        text-align: center;
+        width: 500;
+        height: auto;
+    }
+    .text{
+        width: 479;
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
 }
 
 a{
