@@ -30,7 +30,6 @@ a{
 }
 
 .downloadButton:hover{     
-    animation: fadeOut ease 8s;
-    opacity: 0.7;
+     opacity: 0.7;
     background-color: rgb(72, 131, 171);
 }
