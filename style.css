@@ -36,14 +36,15 @@
         width: 767;
         height: auto;
     }
+
     .image{
         margin-top: 20px;
         text-align: center;
-        width: 500;
+        width: 800;
         height: auto;
     }
     .text{
-        width: 767;
+        width: 479;
         height: auto;
         font-size: 30px;
         text-align: center;
@@ -55,14 +56,14 @@
 /* mobile phone */
 @media only screen and (max-width:479){
     .container{
-        width: 767;
+        width: 479;
         height: auto;
     }
-    
+
     .image{
         margin-top: 20px;
         text-align: center;
-        width: 500;
+        width: 800;
         height: auto;
     }
     .text{
