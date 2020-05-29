@@ -13,9 +13,15 @@
 
 
 /* Desktop */
+.image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 800;
+    height: auto;
+}
 
-
-/* Large Tablet 
+/* Large Tablet */
 @media only screen and (max-width:991){
     .image{
         margin-top: 20px;
@@ -24,7 +30,6 @@
         height: auto;
     }
 }
-*/
 
 /* mdeium Tablet */
 @media only screen and (max-width:767){
@@ -32,15 +37,14 @@
         width: 767;
         height: auto;
     }
-
     .image{
         margin-top: 20px;
         text-align: center;
-        width: 800;
+        width: 500;
         height: auto;
     }
     .text{
-        width: 479;
+        width: 767;
         height: auto;
         font-size: 30px;
         text-align: center;
