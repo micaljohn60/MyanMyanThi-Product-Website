@@ -17,12 +17,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    width: 800;
+    width: 400;
     height: auto;
 }
 
 /* Large Tablet */
-@media only screen and (max-width:991){
+@media only screen and (min-width:991){
     .image{
         margin-top: 20px;
         text-align: center;
@@ -32,7 +32,7 @@
 }
 
 /* mdeium Tablet */
-@media only screen and (max-width:767){
+@media only screen and (min-width:767){
     .container{
         width: 767;
         height: auto;
@@ -40,7 +40,7 @@
     .image{
         margin-top: 20px;
         text-align: center;
-        width: 500;
+        width: 550;
         height: auto;
     }
     .text{
@@ -54,7 +54,7 @@
 }
 
 /* mobile phone */
-@media only screen and (max-width:479){
+@media only screen and (min-width:479){
     .container{
         width: 479;
         height: auto;
