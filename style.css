@@ -48,6 +48,12 @@ a{
         width: 500;
         height: auto;
     }
+    .image{
+        margin-top: 20px;
+        text-align: center;
+        width: 800;
+        height: auto;
+}
 }
 
 /* mdeium Tablet */
