@@ -36,7 +36,7 @@ font{
 
 
 /* mdeium Tablet */
-@media only screen and (min-width:720){
+@media only screen and (max-width:720){
     .downloadButton{
         width: 500px;
         height: auto;
