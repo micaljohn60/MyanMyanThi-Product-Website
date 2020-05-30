@@ -22,9 +22,9 @@
     margin: 30px 0px 50px 0px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: auto;
+    width: 80%;
     height: auto;
-    font-size: 30;
+    font-size: 1.5rem;
 }
 
 .text{
@@ -132,7 +132,7 @@
         text-align: center;
         width: auto;
         height: auto;
-        font-size: 30;
+        font-size: calc(.6vh +  1rem);
     }
     
 }
