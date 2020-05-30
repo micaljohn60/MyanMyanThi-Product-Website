@@ -3,45 +3,80 @@
     height: auto;
 }
 
-.text{
-    width: auto;
-    height: auto;
-    font-size: 30px;
+.logo{
     text-align: center;
-    margin-top: 20px;
+    width: auto;
+    height: 70px;
 }
 
-font{
+.text{
+    margin: 30px 0px 50px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: auto;
+    height: auto;
     font-size: 30;
 }
 
-/* Desktop */
-.image{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 400;
+.downloadButtonDiv{
+    margin: 30px 0px 0px 0px;
+}
+
+.downloadButton{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
     height: auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #53C5F9;
+    color: white;
+    padding: 15px 15px 15px 15px;
 }
 
-
-.downloadButton{          
-    background-color: rgb(20, 112, 175);
-}
-
-.btn-primary:hover{     
+.downloadButton:hover{
+    text-decoration: none;
     opacity: 0.7;
-    background-color: rgb(72, 131, 171);
+    background-color: #92D7F7;
+    color: white;
 }
 
+.image{
+    margin: 50px 0px 0px 0px;
+    text-align: center; 
+}
 
-/* mdeium Tablet */
 @media only screen and (max-width:720px){
 
-    font{
-        font-size: 120;
-        color: black;
+    .text{
+        margin: 30px 0px 50px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: auto;
+        height: auto;
+        font-size: 40;
     }
 
-    
+    .downloadButtonDiv{
+        margin: 30px 0px 0px 0px;
+    }
+
+    .downloadButton{
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 50px;
+        background-color: #53C5F9;
+        color: white;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .image{
+        width: 100%;
+        margin: 50px 0px 0px 0px;
+        text-align: center;         
+    }
 }
+
