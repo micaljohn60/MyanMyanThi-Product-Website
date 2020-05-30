@@ -55,7 +55,7 @@
         text-align: center;
         width: auto;
         height: auto;
-        font-size: 40;
+        font-size: 80;
     }
 
     .downloadButtonDiv{
@@ -74,7 +74,6 @@
     }
 
     .image{
-        width: 100%;
         margin: 50px 0px 0px 0px;
         text-align: center;         
     }
