@@ -31,73 +31,14 @@
     background-color: rgb(72, 131, 171);
 }
 
-/* Large Tablet */
-@media only screen and (min-width:991){
-    .image{
-        margin-top: 20px;
-        text-align: center;
-        width: 500;
-        height: auto;
-    }
-    .image{
-        margin-top: 20px;
-        text-align: center;
-        width: 800;
-        height: auto;
-}
-}
 
 /* mdeium Tablet */
 @media only screen and (min-width:720){
-    .container{
-        width: 767;
+    .downloadButton{
+        width: 500px;
         height: auto;
-    }
-    .image{
-        margin-top: 20px;
-        text-align: center;
-        width: 800;
-        height: auto;
-    }
-    .text{
-        width: 767;
-        height: auto;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-}
+        background-color: turquoise;
 
-/* mobile phone */
-@media only screen and (min-width:479){
-    .container{
-        width: 479;
-        height: auto;
-    }
-
-    .image{
-        margin-top: 20px;
-        text-align: center;
-        width: 800;
-        height: auto;
-    }
-    .text{
-        width: 479;
-        height: auto;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .downloadButton{      
-        width: 300px;
-        margin-top: 30px;
-        border: none;
-        padding: 15px 15px 15px 15px;
-        text-align: center;
-        background-color: rgb(20, 112, 175);
-        border-radius: 50px;
     }
 
     
