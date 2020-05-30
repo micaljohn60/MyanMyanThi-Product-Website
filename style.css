@@ -18,6 +18,15 @@
     font-size: 30;
 }
 
+.footerText{
+    margin: 30px 0px 50px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 30;
+}
+
 .text{
     margin: 30px 0px 50px 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -116,5 +125,15 @@
         background-size: contain;
         text-align: center;                
     }
+
+    .footerText{
+        margin: 30px 0px 50px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: auto;
+        height: auto;
+        font-size: 30;
+    }
+    
 }
 
