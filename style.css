@@ -21,6 +21,25 @@
     height: auto;
 }
 
+a{
+    text-decoration: none;
+}
+
+.downloadButton{      
+    width: auto;
+    margin-top: 30px;
+    border: none;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    background-color: rgb(20, 112, 175);
+    border-radius: 50px;
+}
+
+.downloadButton:hover{     
+     opacity: 0.7;
+    background-color: rgb(72, 131, 171);
+}
+
 /* Large Tablet */
 @media only screen and (min-width:991){
     .image{
@@ -73,24 +92,16 @@
         text-align: center;
         margin-top: 20px;
     }
+
+    .downloadButton{      
+        width: 300px;
+        margin-top: 30px;
+        border: none;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        background-color: rgb(20, 112, 175);
+        border-radius: 50px;
+    }
+
     
-}
-
-a{
-    text-decoration: none;
-}
-
-.downloadButton{      
-    width: auto;
-    margin-top: 30px;
-    border: none;
-    padding: 15px 15px 15px 15px;
-    text-align: center;
-    background-color: rgb(20, 112, 175);
-    border-radius: 50px;
-}
-
-.downloadButton:hover{     
-     opacity: 0.7;
-    background-color: rgb(72, 131, 171);
 }
