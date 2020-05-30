@@ -36,15 +36,11 @@ font{
 
 
 /* mdeium Tablet */
-@media only screen and (max-width:720){
-    .downloadButton{
-        width: 500px;
-        height: auto;
-        background-color: turquoise;
+@media only screen and (max-width:720px){
 
-    }
     font{
         font-size: 50;
+        color: black;
     }
 
     
