@@ -9,5 +9,3 @@ git commit -m"$cmt_msg"
 git push -u origin
 echo "PUsh Successful"
 fi
-
-

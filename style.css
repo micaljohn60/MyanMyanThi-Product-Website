@@ -3,10 +3,32 @@
     height: auto;
 }
 
-.logo{
+#logo{
+    text-align: center;
+    position: relative;
+    top: -90px;    
+    width: auto;
+    height: 70px;  
+}
+
+.logoAnimation{
     text-align: center;
     width: auto;
     height: 70px;
+    animation-name: scrollImg;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scrollImg{
+    from{
+        transform: translateY(0px);
+    }
+    to{transform: translateY(100px);}
+}
+
+#logo.scroll{
+    transform: translateY(-100);
 }
 
 .headingText{
@@ -74,7 +96,7 @@
 
 @media only screen and (max-width:1520px){
 
-    .logo{
+    #logo{
         text-align: center;
         max-width: 400;
         height: 150;
