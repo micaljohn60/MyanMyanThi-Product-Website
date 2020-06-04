@@ -7,5 +7,5 @@ else
 git add --a
 git commit -m"$cmt_msg"
 git push -u origin
-echo "Result /n ----------------------- /n Push Successful /n -----------------------"
+echo -e "Result /n ----------------------- /n Push Successful /n -----------------------"
 fi
