@@ -2,6 +2,7 @@
     <head>
         <title>HI.org</title>
         <link rel="stylesheet" href="style.css" >
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script type="text/javascript" src="style.js"></script>        
     </head>    
     <body>
@@ -10,7 +11,7 @@
             <div class="container" >
 
                 <div>
-                    <img onscroll="imgAnimate()" src="image/myan+myan+ti+web+logo.jpg" alt="" id="logo" class="logoAnimation">
+                    <img src="image/myan+myan+ti+web+logo.jpg" alt="" id="logo" data-aos="fade-right" data-aos-duration="1000">
                 </div>
     
                 <div class="headingText">
@@ -25,16 +26,23 @@
                         </button>                        
                     </div>    
 
-                    <div class="image" >                    
+                    <div class="image" data-aos="fade-right">                    
                        
                     </div> 
 
-                    <div class="footerText">
+                    <div class="footerText" data-aos="fade-up">
                         မြန်မာနိုင်ငံ တွင် လက်ရှိဖြစ်ပွားနေသော COVID 19 virus ခံစားနေရသော လူနာများ၏ အချက်အလက်များ ၊ ကာကွယ်နည်းများ နှင့် COVID 19 နှင့် ပတ်သတ်သောသတင်းအချက်အလက်များ အား အချိန်နှင့်တပြေးညီ ကြည့်ရှူနိုင်သော Application တစ်ခုကို အခုပဲ download လုပ်လိုက်ပါ
                     </div>
 
             </div>
         </center>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+        <script src="scripts/jquery3-5.1.js"></script>        
+        <script src="scripts/script.js"></script>
+       
 
     </body>
 </html>

@@ -6,9 +6,13 @@
 #logo{
     text-align: center;
     position: relative;
-    top: -90px;    
     width: auto;
     height: 70px;  
+    background-image: url('image/myan+myan+ti+web+logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center; 
 }
 
 .logoAnimation{
